@@ -1,0 +1,55 @@
+.machine {
+    width: 50rem;
+    min-height: 35rem;
+    border: 3px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.machine-content {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.products {
+    width: 30%;
+}
+
+.product{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    cursor: pointer;
+}
+
+.selected-product {
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected-product_content {
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.money {
+    width: 30%;
+
+}
